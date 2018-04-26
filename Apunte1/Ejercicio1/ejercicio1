@@ -1,0 +1,7 @@
+﻿SELECT
+	patent,
+	motor_size 
+FROM
+	vehicle 
+WHERE
+	motor_size>1230;

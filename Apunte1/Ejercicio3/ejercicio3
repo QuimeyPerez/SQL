@@ -1,0 +1,9 @@
+﻿SELECT
+	name,
+	surname,
+	nationality
+FROM
+	person
+WHERE
+	nationality!='Colombiano/a'
+	AND birthday BETWEEN '1995-01-01' AND '2005-12-31';

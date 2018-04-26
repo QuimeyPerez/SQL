@@ -1,0 +1,7 @@
+﻿SELECT
+	*
+FROM
+	product
+WHERE
+	product_family='Almacen'
+	AND unitary_price<100;
